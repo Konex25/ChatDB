@@ -1,24 +1,3 @@
-# Use Miniconda3 as the base image
-#FROM continuumio/miniconda3
-#
-## Set the working directory
-#WORKDIR /app
-#
-## Copy current directory contents into the container at /app
-#COPY . /app
-#
-## Update Conda and install packages from environment.yml
-#RUN conda update conda -y
-#RUN conda env create -f environment.yml
-#RUN conda clean -a -y
-#
-## Make RUN commands use the new environment
-#SHELL ["conda", "run", "-n", "myenv", "/bin/bash", "-c"]
-#
-## Define command to run the application
-#CMD ["conda", "run", "-n", "myenv", "python", "app.py"]
-
-
 FROM continuumio/miniconda3
 
 WORKDIR /app
