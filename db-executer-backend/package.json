@@ -1,0 +1,17 @@
+{
+  "name": "db-executor-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "mysql2": "^2.3.0",
+    "os": "^0.1.1",
+    "sqlite3": "^5.0.2",
+    "cors": "^2.8.5"
+  }
+}
