@@ -1,6 +1,6 @@
-# 🌱TalkToYourData: Speak freely with your database!
+# ChatDB: Speak freely with your database!
 
-**TalkToYourData** is your to-go tool to work with your database! No more difficult sql query definition! 
+**ChatDB** is your to-go tool to work with your database! No more difficult sql query definition! 
 
 All you have to do is say out loud what you would like to see, ChatDb translates it into text, formulates an SQL query, lets you edit it and automatically sends it to the database, finally displaying the response with the data of interest. 
 
