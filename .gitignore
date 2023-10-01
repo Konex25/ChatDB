@@ -6,3 +6,5 @@ nsql-llama-2-7B/
 nsql-350M/
 __pycache__/
 training_run/
+text2sql/nsql-llama-2-7B/*
+!text2sql/nsql-llama-2-7B/_placeholder_

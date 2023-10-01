@@ -3,6 +3,9 @@ from flask_cors import CORS
 from flask_socketio import SocketIO, emit
 import text2sql
 
+print("This is TalkToYourData app.")
+
+
 app = Flask(__name__)
 CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
@@ -29,4 +32,3 @@ def handle_process(data):
 
 if __name__ == '__main__':
     socketio.run(app, host='0.0.0.0', port=5000, debug=True)
-
